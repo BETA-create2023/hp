@@ -1,0 +1,41 @@
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b1fff3; /* Background color from SVG */
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+/* Rectangle styling */
+.rectangle {
+    width: 1260px;
+    height: 299px;
+    background-color: #b1fff3; /* Color from SVG rectangle */
+    position: absolute;
+    top: 100px;
+}
+
+/* Text styling */
+.text h1 {
+    font-size: 150px;
+    color: #fff; /* Color from SVG */
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: Arial, sans-serif;
+}
